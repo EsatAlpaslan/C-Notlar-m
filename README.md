@@ -29,6 +29,16 @@ int main()
 }
 *******************************************************
 
+*Bir harfi yazmak için 8 bit gerekir.
+*8 bit= 1 byte
+*int 4 byte lik alan kaplar
+*Her bir hücre 1 byte yer tutabilir
+
+char   1byte     -127 to 127  ord 0 to 255
+int    4bytes    -2147483648 to 2147483648
+float  4bytes     
+double 8bytes
+
 
 
 
