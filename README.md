@@ -106,6 +106,14 @@ C++ gösterimi sıfırdan önceki haneler +12e4 olarak gösterilir
 örn:  9.878787878798 x 10 üzeri 80 c++ karşılığı 5.9736e40
 
 
+************************************************************************************************************************
+
+ 1 byte  01000001 =A=65 
+ 2 byte  1100001110100111=ç= 231  (soldan ilk kaç 1 varsa bellekte kaç byte yer kaplayacağını bize gösterir.Burada mesela 2 tane olduğu için pc okurken 2 tane 8 bitlik kısmı okuduktan sonra devamı benim değil diyerek bırakır)
+ 3 byte 111000111000000110001100=  =12364
+ 
+
+
 
 
 
