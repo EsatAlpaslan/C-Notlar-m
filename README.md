@@ -111,7 +111,37 @@ C++ gösterimi sıfırdan önceki haneler +12e4 olarak gösterilir
  1 byte  01000001 =A=65 
  2 byte  1100001110100111=ç= 231  (soldan ilk kaç 1 varsa bellekte kaç byte yer kaplayacağını bize gösterir.Burada mesela 2 tane olduğu için pc okurken 2 tane 8 bitlik kısmı okuduktan sonra devamı benim değil diyerek bırakır)
  3 byte 111000111000000110001100=  =12364
- 
+
+
+
+
+
+ ******************************************************************************************
+
+
+                        C ÖRNEKLER
+
+						
+ #include <stdio.h>
+
+int main()
+{
+   int sayi,toplam=0,kalan;
+   printf("bir sayi giriniz\n");
+   scanf("%d",&sayi);
+   while (sayi != 0)
+   {
+       kalan = sayi % 10;
+       toplam= toplam +kalan;
+       sayi= sayi/ 10;
+   }
+   printf("basamak toplami = %d\n",toplam);
+    return 0;
+}
+
+(Basamak sayısı toplamını verir)
+
+*******************************************************************************************
 
 
 
