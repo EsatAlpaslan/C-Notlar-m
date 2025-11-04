@@ -144,7 +144,25 @@ int main()
 *******************************************************************************************
 
 
+#include <stdio.h>
 
+int main()
+{
+   int c, bosluk=0;
+   printf("\nBir cümle giriniz:\n");
+   c=getchar();
+   while(c!='\n')
+   {
+       if(c==' ') bosluk++;
+       c=getchar();
+   }
+   printf("bosluk sayisi: %d",bosluk);
+    return 0;
+}
+
+(girilen metindeki boşluk sayısının çıktısını verir)
+
+*************************************************************************************
 
 
 
